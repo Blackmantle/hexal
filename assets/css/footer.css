@@ -1,0 +1,230 @@
+.page-footer {
+	position: relative;
+	background-color: #323232;
+	height: 607px;
+}
+
+.page-footer::before,
+.page-footer::after {
+	content: '';
+	position: absolute;
+	background-color: #2b2b2b;
+	width: 960px;
+	height: 1px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.page-footer::before {
+	top: 12px;
+}
+
+.page-footer::after {
+	bottom: 54px;
+}
+
+.page-footer__get-in-touch-wrapper {
+	padding-top: 67px;
+	max-width: 780px;
+}
+
+.get-in-touch {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 780px;
+	height: 432px;
+}
+
+.get-in-touch__form {
+	width: 582px;
+	height: 100%;
+}
+
+.get-in-touch__form > fieldset {
+	border: none;
+}
+
+.get-in-touch__form-name {
+	font-family: MavenPro-Regular, MyriadPro-Regular, sans-serif;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 24px;
+	color: #e0e0e0;
+}
+
+.get-in-touch__form-hint {
+	font-family: MavenPro-Regular, MyriadPro-Regular, sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	padding-top: 3px;
+	color: #bebebe;
+}
+
+.form-input {
+	font-family: Lato-Regular, MyriadPro-Regular, sans-serif;
+	background-color: #454545;
+	color: #bebebe;
+	font-size: 12px;
+	width: 100%;
+	height: 38px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding: 14px;
+	border: none;
+}
+
+.form-input::placeholder {
+	color: #bebebe;
+	opacity: 1;
+}
+
+.form-input::-webkit-input-placeholder {
+	color: #bebebe;
+	opacity: 1;
+}
+
+.form-input:-ms-input-placeholder {
+	color: #bebebe;
+	opacity: 1;
+}
+
+.form-input::-ms-input-placeholder {
+	color: #bebebe;
+	opacity: 1;
+}
+
+.get-in-touch__form-username-input {
+	margin-top: 19px;
+}
+
+.get-in-touch__form-email-input,
+.get-in-touch__form-subject-input,
+.get-in-touch__form-text-input {
+	margin-top: 16px;
+}
+
+.get-in-touch__form-text-input {
+	height: 150px !important;
+	overflow: hidden;
+	resize: none;
+}
+
+.get-in-touch__form-submit-button {
+	font-family: Lato-Bold, MyriadPro-Regular, sans-serif;
+	font-size: 12px;
+	background-color: #2eb398;
+	color: white;
+	text-transform: uppercase;
+	width: 90px;
+	height: 37px;
+	margin-top: 12px;
+	float: right;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border: none;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.get-in-touch__form-submit-button:hover {
+	background-color: #228974;
+	cursor: pointer;
+}
+
+.page-footer__contact-information-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	width: 181px;
+	height: 226px;
+	padding-top: 60px;
+	margin-left: auto;
+}
+
+.page-footer__contact-description {
+	font-family: Lato-Regular, MyriadPro-Regular, serif;
+	font-size: 12px;
+	line-height: 22px;
+	text-align: justify;
+	color: #bebebe;
+	max-height: 150px;
+	overflow: hidden;
+}
+
+.page-footer__contact-description > strong {
+	font-size: 11px;
+	color: #e0e0e0;
+}
+
+.page-footer__contacts {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin-top: auto;
+}
+
+.page-footer__contact {
+	text-decoration: none;
+	fill: #2eb398;
+	color: #bebebe;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.page-footer__contact:hover {
+	fill: white;
+	color: white;
+	cursor: pointer;
+}
+
+.page-footer__address-description,
+.page-footer__tel-description,
+.page-footer__email-description {
+	font-family: Lato-Bold, MyriadPro-Regular, sans-serif;
+	font-style: normal;
+	font-size: 12px;
+	padding-left: 9px;
+}
+
+.page-footer__tel,
+.page-footer__email {
+	margin-top: 4px;
+}
+
+.page-footer__copyright-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background-color: #222222;
+	height: 43px;
+	margin-top: 65px;
+}
+
+.page-footer__copyright-wrapper {
+	max-width: 940px;
+}
+
+.page-footer__copyright {
+	font-family: MavenPro-Regular, MyriadPro-Regular, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 12px;
+	color: #3f3f3f;
+}
+
+.copyright-icon {
+	font-style: normal;
+}

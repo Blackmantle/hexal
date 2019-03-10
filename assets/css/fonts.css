@@ -1,0 +1,19 @@
+@font-face {
+	font-family: Lato-Bold;
+	src: url('../fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+	font-family: Lato-Regular;
+	src: url('../fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+	font-family: MavenPro-Regular;
+	src: url('../fonts/MavenPro-Regular.ttf');
+}
+
+@font-face {
+	font-family: MyriadPro-Regular;
+	src: url('../fonts/MyriadPro-Regular.ttf');
+}
